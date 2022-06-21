@@ -1,0 +1,117 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(161, 158, 155);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+#mainContainer{
+    height: auto;
+    width: auto;
+    background-color: #0c0c0c;
+    padding: 5px;
+    border-radius: 5px;
+}
+#calciContainer{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    /* background-color: #1c1c1c; */
+}
+#brandTitle{
+    /* background-color: #2c2c2c; */
+    padding: 0px;
+    margin: 0px;
+    height: 50px;
+    color: #a1a1a1;
+}
+#resultContainer{
+    height: 130px;
+    border: 2px solid #0c0c0c;
+    background-image: linear-gradient(to top, #202020, #1d1d1d, #1a1a1a, #181818, #151515, #131313, #101010, #0d0d0d, #0a0a0a, #070707, #030303, #000000);
+
+}
+#inputDisplay{
+    font-size: 25px;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 15px;
+    padding-right: 5px;
+    height: 45px;
+}
+#outputDisplay{
+    /* background-color: aquamarine; */
+    font-size: 40px;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: baseline;
+    padding-right: 5px;
+    height: 55px;
+}
+#buttonContainer{
+    display: flex;
+    flex-direction: column;
+    height: 65%;
+    /* border: 2px solid #271283; */
+    /* background-color: rgb(226, 187, 12); */
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 60px;
+    margin: 0px;
+    width: auto;
+
+
+}
+
+button {
+    background-color: #ddd;
+    text-align: center;
+    border: none;
+    /* border: 1px solid rgb(10, 10, 10); */
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+
+
+.symbols{
+    color: chartreuse;
+    height: auto;
+    width: 85px;
+    /* border-radius: 3px; */
+    /* background-color: cornflowerblue; */    
+    /* border: 2px solid #474747; */
+    background-image: radial-gradient(circle, #202020, #1d1d1d, #1a1a1a, #181818, #151515, #131313, #101010, #0d0d0d, #0a0a0a, #070707, #030303, #000000);
+
+}
+.symbols:hover {
+    opacity: 1; 
+    color: white;
+    font-size: x-large;
+    transition: ease-in 0.1s;
+    background-image: radial-gradient(circle, #000000, #050505, #0a0a0a, #0e0e0e, #121212, #121212, #121212, #121212, #0e0e0e, #0a0a0a, #050505, #000000);
+
+}
+.numeric{
+    color: white;
+    height: auto;
+    width: 85px;
+    /* border-radius: 3px; */
+    /* background-color: rgb(50, 70, 107); */
+    /* border: 2px solid #474747; */
+    background-image: radial-gradient(circle, #202020, #1d1d1d, #1a1a1a, #181818, #151515, #131313, #101010, #0d0d0d, #0a0a0a, #070707, #030303, #000000);
+}
+.numeric:hover{
+    opacity: 1; 
+    color: #ffffff;
+    font-size: x-large;
+    transition: ease-in 0.1s;
+    background-image: radial-gradient(circle, #000000, #050505, #0a0a0a, #0e0e0e, #121212, #121212, #121212, #121212, #0e0e0e, #0a0a0a, #050505, #000000);
+}
+/*colorCodeborder = #0c0c0c */
